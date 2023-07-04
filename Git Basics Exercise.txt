@@ -1,0 +1,16 @@
+git status
+touch third.txt
+git init
+touch fourth.txt
+git add third.txt
+git config --global user.email "fargotem@mac.com"
+git config --global user.name "Francisco Argote"
+git commit -m "adding third.txt"
+git log
+git add fourth.txt
+git commit -m "adding fourth.txt"
+rm third.txt
+git add .
+git commit -m "removing third.txt"
+git config --global core.pager "cat"
+git config --global --list --show-origin
