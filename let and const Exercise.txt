@@ -1,0 +1,11 @@
+What is the difference between var and let?
+var can be used in java reserved words, then functionality will go.
+var can be redeclare let no
+What is the difference between var and const?
+var can change value const no
+var can be redeclare const no
+What is the difference between let and const?
+let can change value
+What is hoisting?
+During the initial run, the code will be recognized and var will be define also before they are called, var is identified, let no, let will be declared when de code is run in the line
+Function declarations are also hoisted and can be invoked “before” they are defined in a codebase.
