@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<script src="connect4.js"></script>
+<head>
+  <title>Connect 4 V3</title>
+  <link rel="stylesheet" href="CFsettings.css">
+  <style>
+    /* Define your styling here (optional) */
+  </style>
+</head>
+<body>
+  <h1>Connect 4 V3</h1>
+  <div id="board" class="grid-container"></div>
+  <script>
+    const ROWS = 6;
+    const COLS = 6;
+    let currentPlayer = 'red'; // 'red' or 'yellow'
+    let board = [];
+       // Initialize the game
+    createBoard();
+    renderBoard();
+  </script>
+</body>
+</html>

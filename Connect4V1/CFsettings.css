@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  padding: 20px;
+}
+.cell {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  text-align: center;
+}
+html, body { height: 100% }
+img {
+    border: 1px solid black;
+    height: 150px;
+    width: 200px;
+  }
+  .cell.red {
+    background-color: red;
+  }
+  
+  .cell.yellow {
+    background-color: yellow;
+  }
+  
