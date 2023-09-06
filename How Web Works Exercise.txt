@@ -1,0 +1,14 @@
+What is HTTP? it’s a computer protocol (protocol is a computer communication way), to help us to access remote information who’s transmitted through a network, the most common is accessing webpages in internet
+What is a URL? Is the “address” in “human” word to access a information page commonly named web page example www.website.com
+What is DNS? Domain name server, is the service who “translate” an URL to the correspondent IP address. 
+What is a query string? Is the information included after the URL name who sends variable values to the targeted server, those values will be read by the server and will affect the information coming back from the server will respond. Example www.website.com=?name=francis
+What are two HTTP verbs and how are they different? 
+Retrieve a single item (GET)
+Update/Modify a list of items (PATCH)
+Create an item (POST)
+Update an item (PUT)
+Delete an item (DELETE)
+What is an HTTP request? Is the information included on the input window describing the URL and all the variable values 
+What is an HTTP response? Are the characters or file sent back by the server who will be parsed by the browser which will be displayed on the computer screen inside the browser window
+What is an HTTP header? Give a couple examples of request and response headers you have seen.
+What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
